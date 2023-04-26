@@ -1,0 +1,12 @@
+<!-- <div>
+    <div class="form-inline my-2 my-lg-0 searchbtn">
+        <input type="text" [(ngModel)]="enterSearchValue" (input)="onSearchTextChanged()">
+    </div>
+</div> -->
+
+
+<div class="input-group mb-3">
+    <span class="input-group-text" id="basic-addon1">Search</span>
+    <input type="text" class="form-control" aria-label="Username" aria-describedby="basic-addon1"
+    [(ngModel)]="enterSearchValue" (input)="onSearchTextChanged()">
+  </div>

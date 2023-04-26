@@ -1,0 +1,21 @@
+<div>
+    <div class="container mt-4 border p-2 rounded">
+        <h3>Added News in  List</h3>
+        <table class="table table-striped">
+            <thead>
+                <tr>
+                    <th scope="col ">Sr.No.</th>
+                    <th scope="col">News Title</th>
+                    <th scope="col">Content</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr *ngFor="let news of FavNews , let i = index">
+                    <th scope="row">{{i+1 }}</th>
+                    <td>{{news.newstitle}}</td>
+                    <td>{{news.newscontent }}</td>
+                </tr>
+
+            </tbody>
+        </table>
+    </div>

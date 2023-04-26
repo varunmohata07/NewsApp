@@ -1,0 +1,9 @@
+.heading{
+    background: #ffb8b8;
+    padding: 2px;
+}
+
+.logo{
+    margin-left: 40px;
+    column-gap: 20px;
+}
